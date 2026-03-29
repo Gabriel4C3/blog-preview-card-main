@@ -1,0 +1,122 @@
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px; /* Limite do conteúdo */
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@font-face{
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500, 800;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    
+}       
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    border: hsl(0, 0%, 7%) 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 20px;
+}
+.cartão{    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.cartão-imagem {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    overflow: hidden;
+ 
+}
+
+.imagens-principal {
+    width: 100%;
+    border-radius: 11px;
+}
+.butao {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+
+}
+ 
+.link-principal {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 0.875rem;
+}
+.cartão-titulo {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 7%);
+    
+}
+.cartão-descricao {
+    margin-top: 10px;
+    color: hsl(0, 0%, 42%)
+}
+.cartão-autor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.autor-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.nome-autor {
+    color:hsl(0, 0%, 7%);
+    font-size: 0.875rem;
+    font-weight: 800;
+}
+.attribution {
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+.attribution a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
